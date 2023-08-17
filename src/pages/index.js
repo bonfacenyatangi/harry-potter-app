@@ -1,5 +1,4 @@
-//Fetching the data
-// services/api.js
+import { useState } from 'react';
 
 const API_URL = 'https://hp-api.onrender.com'
 
@@ -20,6 +19,12 @@ export async function getCharacters() {
 import CharacterCard from '../components/CharacterCard';
 
 const HomePage = ({ characters }) => {
+    const [searchQuery, setSearchQuery] = useState('');
+    const filteredCharacters = characters.filter((character) =>
+        character.name.toLowerCase().includes(searchQuery.toLowerCase())
+    )
+
+
     return (
         <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             {characters.map((character) => (
