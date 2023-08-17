@@ -1,3 +1,5 @@
+
+// Components for the details of characters
 const CharacterDetails = ({ character }) => {
     return (
         <div className="bg-white p-4 rounded shadow">
