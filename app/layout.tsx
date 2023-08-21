@@ -5,9 +5,9 @@ import { Inter } from 'next/font/google'
 import { FilterContextProvider } from './../context/Filters';
 
 // const inter = Inter({ subsets: ['latin'] })
-
+// Harry Potter wiki
 export const metadata = {
-  title: 'Harry Potter wiki',
+  title: 'Harry-Potter-App',
   description: 'Discover Harry potter world',
 }
 
