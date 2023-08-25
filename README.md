@@ -1,4 +1,3 @@
-```markdown
 # Harry Potter App
 
 ![Harry Potter App Logo](./public/logo.png)
@@ -71,6 +70,4 @@ This project is licensed under the [MIT License](LICENSE).
 ## Contact
 
 If you have any questions, suggestions, or just want to chat about Harry Potter, you can reach me at [bonfacenyatangi@gmail.com](mailto:bonfacenyatangi@gmail.com).
-
-```
 
